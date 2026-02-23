@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 data = {"city": ["Kyiv", "Lviv", "Odesa"], "sales": [1200, 900, 500]}
 df = pd.DataFrame(data)
 print("Продажі по містах:")
